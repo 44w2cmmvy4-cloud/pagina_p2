@@ -1,0 +1,4 @@
+/* index.css — solo reset base, los estilos viven en App.css */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; padding: 0; }
+#root { min-height: 100vh; display: flex; flex-direction: column; }
